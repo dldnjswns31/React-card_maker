@@ -13,7 +13,6 @@ const CardAddForm = ({ onAdd }) => {
   const messageRef = useRef();
 
   const onSubmit = (e) => {
-    console.log(e);
     e.preventDefault();
     const card = {
       id: Date.now(), //uuid
